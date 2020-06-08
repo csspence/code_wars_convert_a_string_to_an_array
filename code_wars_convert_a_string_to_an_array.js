@@ -8,8 +8,6 @@ Write a function to split a string and convert it into an array of words. For ex
 
 */
 
-function stringToArray(string){
-
-	// code code code
-
+const stringToArray = (string) => {
+  return string.split(' ');
 }
